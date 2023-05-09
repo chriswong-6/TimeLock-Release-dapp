@@ -2,8 +2,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
+### First, run the development server:
 
 ```bash
 npm run dev
@@ -23,7 +22,12 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+### Second deploy contract
+Please check the blockchain network and Solidity edition. Using truffle to deploy contract.
+
 ## Learn More
+
+### Please check the report and ppt to get more details. 
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -31,6 +35,11 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+To learn more about Solidity, Web3.js and Truffle, look at the following resources:
+- [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
+- [Web3.js](https://web3js.readthedocs.io/en/v1.8.2/)
+- [Truffle](https://trufflesuite.com/docs/)
 
 ## Deploy on Vercel
 
