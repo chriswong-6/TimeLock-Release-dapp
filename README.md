@@ -22,7 +22,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Second deploy contract
+### Second, deploy contract
 Please check the blockchain network and Solidity edition. Using truffle to deploy contract.
 
 ## Learn More
