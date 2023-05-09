@@ -1,0 +1,35 @@
+<body>
+ 
+  <button class="AssembleMessage" style="text-align: center;margin-top:100px;">GetMessage</button>
+</body>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+
+
+$(function() {
+  $('.AssembleMessage').click(function() {
+
+
+
+
+    async function calculateSHA256(message) {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(message);
+      const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+      return hashHex;
+    }
+
+    const message = "Hello, world!";
+    calculateSHA256(message).then(hash => {
+      console.log("SHA-256 Hash:", hash);
+    });
+
+
+
+  });
+});
+//console.log(Holderthre)
+</script>
